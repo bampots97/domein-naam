@@ -1,0 +1,241 @@
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+        hsl(199, 28%, 15%) donkergroen///hsl(190, 11%, 58%)grijs
+////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+button {
+    border-style: none;
+    border-radius: 20px;
+    background-color: hsl(199, 28%, 15%);
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    color: white;
+}
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+
+
+.header-section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:  300px;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    position: relative;
+    background-color: darkmagenta;
+    background-image: url("../assets/images/mountains.jpg");
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+}
+{
+
+
+}
+
+h1 {
+text-shadow: 1px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size:80px;
+
+
+
+
+}
+
+
+
+input {
+    border-style: none;
+    background: none;
+    margin-left: 20px;
+    margin-right: 40px;
+
+}
+input:focus {
+    outline: none;
+    overflow: hidden;
+
+
+}
+
+#border-box {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: thin ;
+}
+.header-p {
+    margin-bottom: 10px;
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+.white-box {
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.29);
+    margin-bottom: 20px;
+    padding: 80px 20px;
+    border-radius: 20px;
+     position: relative;
+;
+}
+.white-box img {
+    width: 44px;
+    height: 44px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -500px;
+}
+
+.creds1, .creds2 {
+    color: darkmagenta;
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: -450px
+}
+.reviews-1, .reviews-2 {
+    margin-bottom: 10px;
+    display: block;
+    max-width: 1000px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+
+
+/*///////////// 3.3 Support /////////////*/
+.support-header {
+    text-shadow: 1px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+section .callcenter-img {
+    display: block;
+    margin-right: auto ;
+    margin-left: auto;
+    position: relative;
+    width: 800px;
+    margin-top: 30px;
+    border-radius: 7px;
+
+}
+
+
+.support-info {
+display: block;
+}
+.support-info > button {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin-left: -410px;
+    position: absolute;
+}
+
+.contact-button a:visited{
+    background-color: hsl(199, 28%, 15%);
+    text-decoration: none;
+    color: white;
+}
+
+.contact-button a:hover{
+text-decoration: none;
+    color: inherit;
+}
+.support-info p {
+    text-align: center;
+    font-size: 12px;
+    margin-left: -180px;
+
+}
+
+/*///////////// 3.4 Faq /////////////*/
+.faq    {
+    display: block;
+    margin-top: 50px;
+
+}
+.faq > h2 {
+    text-align: center;
+    text-shadow: 1px 0 #888888;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom: 20px;
+    margin-left: -450px;
+}
+section.faq {
+    text-align: left;
+    margin-left: 550px;
+    margin-top: 90px;
+}
+.faq details {
+    margin-bottom: 10px;
+}
+
+.faq p {
+    background-color:hsl(190, 11%, 58%) ;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin-right: 550px;
+}
+.faq summary:hover {
+    cursor: pointer;
+}
+/*///////////// 3.5 Footer /////////////*/
+footer {
+    background-color: hsl(199, 28%, 15%);
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 20px;
+    font-size: 10px;
+}
